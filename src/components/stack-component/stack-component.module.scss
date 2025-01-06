@@ -9,28 +9,37 @@
     display: flex;
     flex-wrap: nowrap;
     position: static;
-    gap: 6px;
-    border: 1px solid black;
+    gap: 8px;
+    border: 1px solid #ffffff;
     border-radius: 25px;
     object-fit: contain;
-    max-width: 197px;
     width: auto;
     height: auto;
     color: #ffffff;
     padding: 8px;
+    justify-content: start;
+    max-width: 120px;
 }
 .IconSpan {
     display: flex;
-    gap: 8px;
+    gap: 24px;
+    align-items: stretch;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
 }
 .cardStack {
     border-radius: 24px;
-    background-color: #011832;
+    background-color: #011328;
     display: flex;
     flex-direction: column;
     padding: 16px;
     width: auto;
     height: auto;
+    align-self: stretch;
+    gap: 15px;
+    border: 1px solid black;
 }
 .p {
     color: white;
@@ -40,4 +49,12 @@ h3 {
 }
 .p1 {
     color: #ffffff;
+    font-weight: 300;
+}
+.techTools {
+    max-height: 32px;
+    min-height: 32px;
+}
+.header1 {
+    font-weight: 700;
 }

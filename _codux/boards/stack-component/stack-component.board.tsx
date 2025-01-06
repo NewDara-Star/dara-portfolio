@@ -6,7 +6,7 @@ export default createBoard({
     name: 'StackComponent',
     Board: () => <StackComponent className={styles.stackComponent} />,
     environmentProps: {
-        windowWidth: 509,
+        windowWidth: 419.29517794069454,
         windowHeight: 387,
     },
 });
